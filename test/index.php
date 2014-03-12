@@ -29,7 +29,6 @@
     $crox_root = RAP::getRapData(85, '/perf/2014.json', wrapper, 
         array(
             //'root' => 'http://localhost/mock/', 
-            'check' => 1
         ));
     var_dump($crox_root);
 ?>

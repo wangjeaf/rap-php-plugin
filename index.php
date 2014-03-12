@@ -33,7 +33,6 @@
             // 使用传入的root
             if (property_exists($extra, 'root')) {
                 $root = $extra->root;
-                $check_root = $extra->root;
             }
 
             if (substr($url, 0, 1) != '/') {
