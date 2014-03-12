@@ -29,7 +29,7 @@ PHP plugin for RAP
     // RAP标志位，应该放在全局
     $RAP_FLAG = 1;
 
-    // 导入插件集合，目前包括Crox插件和RAP插件
+    // 导入RAP插件
     include 'index.php';
 
     // 真正的业务方法（获取真实数据）
@@ -57,6 +57,8 @@ PHP plugin for RAP
         array(
             //'root' => 'http://localhost/mock/', 
         ));
+
+    // 打印获取的数据
     var_dump($crox_root);
 ?>
 ```
